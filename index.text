@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+    <html lang="en"></html>
+<head>
+    <meta charset="utf-8">
+ <title>CSS examples</title>
+<link rel="stylesheet" href="meyer-reset.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+
+f0c1c1
+
+
+
+<body> 
+    <header>
+      
+        <nav>
+            <div>
+                <a href="#header"><h1>Nailiesbyemsis</h1> </a> 
+                <a href="#start">  Om mig | </a>
+                <a href="#bilder">  Bilder | </a>
+                <a href="#booking-form">  Boka tid |</a>
+                <a href="#review">  Recensioner  </a>
+
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="header">
+            <h1>Hello World</h1> 
+            <p>This is Emmas custom made webapplikation, i hope she likes it :D </p>
+            </section>
+
+
+
+        <section id="start">
+            <h1>About me </h1> 
+            <p>This is the page where Emma writes her personal information and 
+            introduces herself to the customers </p>
+            </section>
+         
+
+<section id="bilder">
+    <div>
+        <img src="emmasbild.jpg" alt="emmas bild">
+    </div> 
+   
+</section>
+
+
+        
+
+
+
+<section id="booking-form">
+    <label>
+        <h1>Välj tid</h1>
+    </label>
+   <div onclick="demoDisplay()">
+       <h2>Måndag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+   
+       <h2>tisdag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+  
+       <h2>Onsdag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+  
+       <h2>Torsdag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+   
+       <h2>Fredag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+   
+       <h2>Lördag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+   
+       <h2>Söndag</h2>
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+       <input type="submit" value="Boka"> 
+   </div>
+
+  <div id="hide" style = "display: none;">
+       <h1>Person uppgifter</h1>
+    <form name="bookingform">  
+
+
+    <label><span> Förnamn</span> </label>
+        <input required  min="2" pattern="[^!]+" 
+        type="text" name="name" placeholder="Förnamn">
+   
+
+    <label><span> Efternamn</span> </label>
+        <input required  min="2" pattern="[^!]+" 
+        type="text" name="name" placeholder="Efternamn">
+   
+   
+    <label><span>Email</span> </label>
+        <input required type="email" name="email" placeholder="Email adress">
+   
+       
+    <label><span> Telefon</span> </label>
+        <input required  minlength="10"
+        type="text" name="name" placeholder="Telefon nummer">
+   
+
+    <label> <span> Övriga Meddelande</span> </label>    
+        <textarea maxlength="200" name="Meddelande" type="message" placeholder="Ex. medtag sällskap, djur, allergier"></textarea>
+   
+   <div id="Boka">
+     <input type="submit" value="Boka"> 
+
+   </div>
+
+</form>
+  </div>
+   
+</section>
+
+<section id="contact-form-thank-you">
+    <h1>Thank you for sending your message!</h1>
+    <p>We will contact you shortly!</p>
+    </section>
+
+</main>
+<footer>
+    © Me and myself 2020!
+</footer>
+
+<script src="collect-form-data.js"></script>
+<script src="booking.js"></script>
+</body>
+
+
+</DOCTYPE>

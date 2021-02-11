@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'lambresia';
+  src: url(fonts/lambresia-webfont.woff2) format('woff2'),
+       url(fonts/lambresia-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nyFont';
+  src: url(fonts/divisible_invisible_low-webfont.woff2) format('woff2'),
+       url(fonts/divisible_invisible_low-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.startPage  {
+  text-align: center;
+  background-color: #E8E8E8;
+  border-bottom: 1px solid #000;
+  padding-top: 20px;
+  height: 250px;
+}
+
+
+#ord a {
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  
+
+}
+#header h1 {
+  position: absolute;
+  font-family:lambresia ;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-left: 43.1%;
+  padding-top: 22px;
+
+  
+}
+#headerB h1 {
+  font-family: nyFont;
+  font-size: 60px;
+  color: #f0c1c1;
+  padding-top: 10px;
+  padding-top: 30px;
+
+}
+
+#menyval a{
+  display: inline-flex;
+  font-size: 18px; 
+  text-decoration: none;
+  color: black;
+  margin-top: 50px;
+  padding-right: 5px;
+
+}
+

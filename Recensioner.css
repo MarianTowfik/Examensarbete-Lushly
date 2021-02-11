@@ -1,0 +1,57 @@
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.block {
+    display:block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    display:block;
+    text-align: center;
+  
+}
+
+label, input textarea {
+    margin-right: 20px;
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+.block input {
+    width: calc(25% - 105px);
+    height: 20px;
+    font-size: small;
+    
+
+}
+textarea {
+   max-width: calc(35% - 105px);
+   max-height: 100px;
+   min-width: calc(35% - 105px) ;
+   min-height: 100px;
+
+}
+
+.submit input {
+    width: calc(15% - 105px);
+    height: 20px;
+    margin-top: 20px;
+}
+
+.submit input:hover {
+    background-color: #E8E8E8;
+
+}
+
+.hello:hover {
+color: aqua;
+}
+
